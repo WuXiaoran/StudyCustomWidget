@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.customview.android.learn_the_custom_control.widget.FirstView
+        android:id="@+id/firstview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:titleText="3712"
+        custom:titleTextColor="#ff0000"
+        custom:titleTextSize="40sp" />
+</RelativeLayout>

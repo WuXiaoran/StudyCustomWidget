@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wxr="http://schemas.android.com/apk/com.customview.android.learn_the_custom_control"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.customview.android.learn_the_custom_control.widget.SixthViewGroup
+        android:id="@+id/viewGroup_Sixth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F2F2F7"
+        android:layout_gravity="center_vertical"
+        wxr:count="3"
+        wxr:tryTimes="5"/>
+
+</LinearLayout>

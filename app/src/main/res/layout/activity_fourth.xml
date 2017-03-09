@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <com.customview.android.learn_the_custom_control.widget.FourthView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        custom:firstColor="#777"
+        custom:secondColor="#753"
+        custom:circleWidth="8dp"
+        custom:dotCount="18"
+        custom:splitSize="10"
+        custom:bg="@drawable/icon"/>
+</LinearLayout>
