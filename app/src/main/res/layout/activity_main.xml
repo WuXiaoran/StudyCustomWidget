@@ -39,6 +39,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="6.手势解锁"/>
+            <Button
+                android:id="@+id/widget_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.弹出菜单"/>
         </LinearLayout>
     </ScrollView>
 

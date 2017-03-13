@@ -22,13 +22,21 @@
         <enum name="round" value="1"/>
     </attr>
     <attr name="src" format="reference"/>
-    <!--属性定义-->
     <attr name="color_no_finger_inner_circle" format="color"/>
     <attr name="color_no_finger_outer_circle" format="color"/>
     <attr name="color_finger_on" format="color"/>
     <attr name="color_finger_up" format="color"/>
     <attr name="count" format="integer"/>
     <attr name="tryTimes" format="integer"/>
+    <attr name="position">
+        <enum name="left_top" value="0"/>
+        <enum name="right_top" value="1"/>
+        <enum name="right_bottom" value="2"/>
+        <enum name="left_bottom" value="3"/>
+    </attr>
+    <attr name="radius" format="dimension"></attr>
+
+
 
     <!--所需widget的属性-->
     <declare-styleable name="FirstView">
@@ -62,7 +70,6 @@
         <attr name="type"/>
         <attr name="src"/>
     </declare-styleable>
-    <!--widget属性-->
     <declare-styleable name="SixthView">
         <attr name="color_no_finger_inner_circle"/>
         <attr name="color_no_finger_outer_circle"/>
@@ -70,6 +77,10 @@
         <attr name="color_finger_up"/>
         <attr name="count"/>
         <attr name="tryTimes"/>
+    </declare-styleable>
+    <declare-styleable name="SeventhView">
+        <attr name="position"/>
+        <attr name="radius"/>
     </declare-styleable>
 
 </resources>

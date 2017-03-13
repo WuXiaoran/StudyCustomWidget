@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button widget_fourth;
     private Button widget_fifth;
     private Button widget_sixth;
+    private Button widget_seven;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -38,12 +39,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         widget_fourth = (Button) findViewById(R.id.widget_fourth);
         widget_fifth = (Button) findViewById(R.id.widget_fifth);
         widget_sixth = (Button) findViewById(R.id.widget_sixth);
+        widget_seven = (Button) findViewById(R.id.widget_seven);
         widget_first.setOnClickListener(this);
         widget_second.setOnClickListener(this);
         widget_third.setOnClickListener(this);
         widget_fourth.setOnClickListener(this);
         widget_fifth.setOnClickListener(this);
         widget_sixth.setOnClickListener(this);
+        widget_seven.setOnClickListener(this);
     }
 
     @Override
@@ -66,6 +69,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.widget_sixth:
                 startActivity(new Intent(MainActivity.this,SixthActivity.class));
+                break;
+            case R.id.widget_seven:
+                startActivity(new Intent(MainActivity.this,SeventhActivity.class));
                 break;
         }
     }
