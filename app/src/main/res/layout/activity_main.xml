@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:text="6.手势解锁"/>
             <Button
-                android:id="@+id/widget_seven"
+                android:id="@+id/widget_seventh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="7.弹出菜单"/>
@@ -48,7 +48,12 @@
                 android:id="@+id/widget_eighth"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="8.横向listview照片查看器（复用）"/>
+                android:text="8.横向HorizontalScrollView照片查看器（复用）"/>
+            <Button
+                android:id="@+id/widget_ninth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.自定义RecyclerView照片查看器"/>
         </LinearLayout>
     </ScrollView>
 

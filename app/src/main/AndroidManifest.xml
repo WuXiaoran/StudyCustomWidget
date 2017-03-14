@@ -23,6 +23,7 @@
         <activity android:name=".view.SixthActivity"/>
         <activity android:name=".view.SeventhActivity"/>
         <activity android:name=".view.EighthActivity"/>
+        <activity android:name=".view.NinthActivity"/>
     </application>
 
 </manifest>
