@@ -44,6 +44,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="7.弹出菜单"/>
+            <Button
+                android:id="@+id/widget_eighth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.横向listview照片查看器（复用）"/>
         </LinearLayout>
     </ScrollView>
 
