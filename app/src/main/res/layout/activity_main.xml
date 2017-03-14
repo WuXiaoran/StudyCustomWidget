@@ -54,6 +54,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="9.自定义RecyclerView照片查看器"/>
+            <Button
+                android:id="@+id/widget_tenth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.标签风格"/>
         </LinearLayout>
     </ScrollView>
 

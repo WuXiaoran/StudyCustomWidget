@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.customview.android.learn_the_custom_control">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,6 +26,7 @@
         <activity android:name=".view.SeventhActivity"/>
         <activity android:name=".view.EighthActivity"/>
         <activity android:name=".view.NinthActivity"/>
+        <activity android:name=".view.TenthActivity"/>
     </application>
 
 </manifest>

@@ -13,5 +13,5 @@
         custom:circleWidth="8dp"
         custom:dotCount="18"
         custom:splitSize="10"
-        custom:bg="@drawable/icon"/>
+        custom:bg="@mipmap/icon"/>
 </LinearLayout>

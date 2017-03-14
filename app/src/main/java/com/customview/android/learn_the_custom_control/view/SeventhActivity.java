@@ -25,7 +25,7 @@ public class SeventhActivity extends AppCompatActivity {
         seventhView = (SeventhView) findViewById(R.id.id_arcmenu1);
         //动态添加一个MenuItem
         ImageView people = new ImageView(this);
-        people.setImageResource(R.drawable.icon);
+        people.setImageResource(R.mipmap.icon);
         people.setTag("People");
         seventhView.addView(people);
 

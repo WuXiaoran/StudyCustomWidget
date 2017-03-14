@@ -10,11 +10,11 @@
         android:layout_height="150dp"
         custom:borderRadius="5dp"
         custom:type="circle"
-        custom:src="@drawable/icon_1"/>
+        custom:src="@mipmap/icon_1"/>
     <com.customview.android.learn_the_custom_control.widget.FifthView
         android:layout_width="150dp"
         android:layout_height="150dp"
         custom:borderRadius="5dp"
         custom:type="round"
-        custom:src="@drawable/icon_1"/>
+        custom:src="@mipmap/icon_1"/>
 </LinearLayout>

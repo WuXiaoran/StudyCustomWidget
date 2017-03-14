@@ -24,9 +24,9 @@ public class EighthActivity extends AppCompatActivity {
     private EighthViewAdapter mAdapter;
     private ImageView mImg;
     private List<Integer> mDatas = new ArrayList<Integer>(Arrays.asList(
-            R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d,
-            R.drawable.e, R.drawable.f, R.drawable.g, R.drawable.h,
-            R.drawable.i));
+            R.mipmap.a, R.mipmap.b, R.mipmap.c, R.mipmap.d,
+            R.mipmap.e, R.mipmap.f, R.mipmap.g, R.mipmap.h,
+            R.mipmap.i));
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
