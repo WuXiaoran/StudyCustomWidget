@@ -34,7 +34,7 @@ public class EighthActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_eighth);
-
+        //初始化控件
         mImg = (ImageView) findViewById(R.id.id_content);
 
         mEighthView = (EighthView) findViewById(R.id.id_eighthview);
